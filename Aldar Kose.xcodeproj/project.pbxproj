@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B30881A27C66D8B0001BE46 /* Aldar_KoseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30881927C66D8B0001BE46 /* Aldar_KoseApp.swift */; };
+		5B30881C27C66D8B0001BE46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30881B27C66D8B0001BE46 /* ContentView.swift */; };
+		5B30881E27C66D950001BE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B30881D27C66D950001BE46 /* Assets.xcassets */; };
+		5B30882127C66D950001BE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B30882027C66D950001BE46 /* Preview Assets.xcassets */; };
+		5B30882A27C676330001BE46 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30882927C676330001BE46 /* Home.swift */; };
+		5B30882C27C7D7E70001BE46 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30882B27C7D7E60001BE46 /* Category.swift */; };
+		5B30882F27C7FF1B0001BE46 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30882E27C7FF1A0001BE46 /* MenuViewModel.swift */; };
+		5B30883127C924530001BE46 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30883027C924510001BE46 /* MainPage.swift */; };
+		5B30883327CA59BD0001BE46 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30883227CA59BA0001BE46 /* MenuDetailView.swift */; };
+		5B30883527CA59D20001BE46 /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30883427CA59D20001BE46 /* SharedDataModel.swift */; };
+		5B30883727CA5EE90001BE46 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30883627CA5EE90001BE46 /* CustomCorners.swift */; };
+		5B30883B27CA6FDE0001BE46 /* LikedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30883A27CA6FDE0001BE46 /* LikedPage.swift */; };
+		5B30883D27CA77DB0001BE46 /* CartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30883C27CA77DA0001BE46 /* CartPage.swift */; };
+		5B50CD5127CE228B0020D330 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50CD5027CE228B0020D330 /* ProfilePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B30881627C66D8A0001BE46 /* Aldar Kose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aldar Kose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B30881927C66D8B0001BE46 /* Aldar_KoseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aldar_KoseApp.swift; sourceTree = "<group>"; };
+		5B30881B27C66D8B0001BE46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B30881D27C66D950001BE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B30882027C66D950001BE46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B30882927C676330001BE46 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5B30882B27C7D7E60001BE46 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5B30882E27C7FF1A0001BE46 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		5B30883027C924510001BE46 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		5B30883227CA59BA0001BE46 /* MenuDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		5B30883427CA59D20001BE46 /* SharedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
+		5B30883627CA5EE90001BE46 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		5B30883A27CA6FDE0001BE46 /* LikedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPage.swift; sourceTree = "<group>"; };
+		5B30883C27CA77DA0001BE46 /* CartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPage.swift; sourceTree = "<group>"; };
+		5B50CD5027CE228B0020D330 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B30881327C66D8A0001BE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B30880D27C66D8A0001BE46 = {
+			isa = PBXGroup;
+			children = (
+				5B30881827C66D8A0001BE46 /* Aldar Kose */,
+				5B30881727C66D8A0001BE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B30881727C66D8A0001BE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B30881627C66D8A0001BE46 /* Aldar Kose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B30881827C66D8A0001BE46 /* Aldar Kose */ = {
+			isa = PBXGroup;
+			children = (
+				5B30882827C675EB0001BE46 /* Model */,
+				5B30882D27C7FA370001BE46 /* ViewModel */,
+				5B30882727C675E20001BE46 /* View */,
+				5B30881927C66D8B0001BE46 /* Aldar_KoseApp.swift */,
+				5B30881B27C66D8B0001BE46 /* ContentView.swift */,
+				5B30881D27C66D950001BE46 /* Assets.xcassets */,
+				5B30881F27C66D950001BE46 /* Preview Content */,
+			);
+			path = "Aldar Kose";
+			sourceTree = "<group>";
+		};
+		5B30881F27C66D950001BE46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B30882027C66D950001BE46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B30882727C675E20001BE46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B30882927C676330001BE46 /* Home.swift */,
+				5B30883027C924510001BE46 /* MainPage.swift */,
+				5B30883A27CA6FDE0001BE46 /* LikedPage.swift */,
+				5B30883227CA59BA0001BE46 /* MenuDetailView.swift */,
+				5B30883627CA5EE90001BE46 /* CustomCorners.swift */,
+				5B30883C27CA77DA0001BE46 /* CartPage.swift */,
+				5B50CD5027CE228B0020D330 /* ProfilePage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B30882827C675EB0001BE46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B30882B27C7D7E60001BE46 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B30882D27C7FA370001BE46 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B30882E27C7FF1A0001BE46 /* MenuViewModel.swift */,
+				5B30883427CA59D20001BE46 /* SharedDataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B30881527C66D8A0001BE46 /* Aldar Kose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B30882427C66D950001BE46 /* Build configuration list for PBXNativeTarget "Aldar Kose" */;
+			buildPhases = (
+				5B30881227C66D8A0001BE46 /* Sources */,
+				5B30881327C66D8A0001BE46 /* Frameworks */,
+				5B30881427C66D8A0001BE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aldar Kose";
+			productName = "Aldar Kose";
+			productReference = 5B30881627C66D8A0001BE46 /* Aldar Kose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B30880E27C66D8A0001BE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5B30881527C66D8A0001BE46 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 5B30881127C66D8A0001BE46 /* Build configuration list for PBXProject "Aldar Kose" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B30880D27C66D8A0001BE46;
+			productRefGroup = 5B30881727C66D8A0001BE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B30881527C66D8A0001BE46 /* Aldar Kose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B30881427C66D8A0001BE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B30882127C66D950001BE46 /* Preview Assets.xcassets in Resources */,
+				5B30881E27C66D950001BE46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B30881227C66D8A0001BE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B30881C27C66D8B0001BE46 /* ContentView.swift in Sources */,
+				5B30883727CA5EE90001BE46 /* CustomCorners.swift in Sources */,
+				5B30883D27CA77DB0001BE46 /* CartPage.swift in Sources */,
+				5B30882A27C676330001BE46 /* Home.swift in Sources */,
+				5B30883527CA59D20001BE46 /* SharedDataModel.swift in Sources */,
+				5B30883B27CA6FDE0001BE46 /* LikedPage.swift in Sources */,
+				5B50CD5127CE228B0020D330 /* ProfilePage.swift in Sources */,
+				5B30881A27C66D8B0001BE46 /* Aldar_KoseApp.swift in Sources */,
+				5B30883327CA59BD0001BE46 /* MenuDetailView.swift in Sources */,
+				5B30882F27C7FF1B0001BE46 /* MenuViewModel.swift in Sources */,
+				5B30882C27C7D7E70001BE46 /* Category.swift in Sources */,
+				5B30883127C924530001BE46 /* MainPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B30882227C66D950001BE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B30882327C66D950001BE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B30882527C66D950001BE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aldar Kose/Preview Content\"";
+				DEVELOPMENT_TEAM = 4WBQDB82UY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ersultan.Aldar-Kose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B30882627C66D950001BE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aldar Kose/Preview Content\"";
+				DEVELOPMENT_TEAM = 4WBQDB82UY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ersultan.Aldar-Kose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B30881127C66D8A0001BE46 /* Build configuration list for PBXProject "Aldar Kose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B30882227C66D950001BE46 /* Debug */,
+				5B30882327C66D950001BE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B30882427C66D950001BE46 /* Build configuration list for PBXNativeTarget "Aldar Kose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B30882527C66D950001BE46 /* Debug */,
+				5B30882627C66D950001BE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B30880E27C66D8A0001BE46 /* Project object */;
+}
